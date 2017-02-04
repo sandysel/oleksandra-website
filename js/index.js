@@ -5,7 +5,7 @@
 /* $ global*/
  var $;
 
-$(function() {
+(function() {
 
     var headgreeting = $(".headgreeting");
     var fadeIndex = -1;
