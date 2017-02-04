@@ -13,9 +13,9 @@
     function showNext() {
         ++fadeIndex;
         headgreeting.eq(fadeIndex % headgreeting.length)
-            .show(2000)
-            .delay(2000)
-            .hide(2000, showNext);
+            .show(3000)
+            .delay(3000)
+            .hide(3000, showNext);
     }
     
     showNext();
