@@ -2,7 +2,6 @@
 	        document.getElementById('pagestyle').setAttribute('href', sheet);
             }
             
-swapStyleSheet();
 
 /* $ global*/
  var $;
