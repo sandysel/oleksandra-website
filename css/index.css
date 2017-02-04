@@ -32,6 +32,11 @@ p, span{
     width:40px;
 }
 
+#logo{
+    display: float; 
+    width:30px;
+}
+
 a, h1, h2, h3, h4, h5, h6, ul, li {
     font-family: 'Cinzel', cursive;
     padding:1px 1px 1px 1px;
