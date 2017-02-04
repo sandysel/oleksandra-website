@@ -8,7 +8,7 @@
 (function() {
 
     var headgreeting = $(".headgreeting");
-    var fadeIndex = 0;
+    var fadeIndex = -1;
     
     function showNext() {
         ++fadeIndex;
@@ -17,6 +17,6 @@
             .delay(3000)
             .hide(3000, showNext);
     }
-    
+
     showNext();
 })();
