@@ -19,6 +19,7 @@ nav {
 }
 .container{
     background-color:#B7EBC7;
+    font-size: 150%;
     /*padding: auto;*/
     /*margin: auto;*/
 }
@@ -34,7 +35,7 @@ p, span{
 
 .logo{
     width:30px;
-    display: float; 
+    display: float;
     
 }
 
@@ -61,7 +62,7 @@ li{
 
 .headgreeting
 {
-    display: none;
+    display: hidden;
 }
 
 .ongray:link{
