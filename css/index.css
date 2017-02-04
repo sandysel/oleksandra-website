@@ -57,6 +57,6 @@ li{
     display: none;
 }
 
-.ongray{
+.ongray:link{
     color: #add8e6;
 }
