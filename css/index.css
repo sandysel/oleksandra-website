@@ -35,7 +35,6 @@ p, span{
 
 .logo{
     width:30px;
-    display: float;
     
 }
 
@@ -62,7 +61,7 @@ li{
 
 .headgreeting
 {
-    display: hidden;
+    display: none;
 }
 
 .ongray:link{
