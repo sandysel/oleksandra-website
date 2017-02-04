@@ -19,9 +19,7 @@ nav {
 }
 .container{
     background-color:#B7EBC7;
-    font-size: 110%;
-    /*padding: auto;*/
-    /*margin: auto;*/
+    font-size: 20;
 }
 p, span{
     max-width: 1080px;
