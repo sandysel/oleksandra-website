@@ -23,7 +23,7 @@
         
         <!-- done or at least found to be used by me -->
         <link id="pagestyle" rel="stylesheet" type="text/css" href="css/index.css">
-        <script type="text/javascript" src=index.js></script>
+        <script type="text/javascript" src="index.js"></script>
         <script type="text/javascript">
             function swapStyleSheet(sheet){
 	        document.getElementById('pagestyle').setAttribute('href', sheet);
@@ -104,10 +104,14 @@
                         <label for="contact-me">
                             <h4>Contact me with:</h4>
                         </label>  
-                        <br>
-                        <label for="contact-me">
-                            <p>Lorem ipsum</p>
-                        </label>
+                
+                        <form action="https://formspree.io/seletska@gmail.com"
+                              method="POST">
+                            <label for="contact-me">Put your name here: <input type="text" name="name"></label>
+                            <label for="contact-me">Reason for contacting me: <input type="text" name="contact-reason"></label>
+                            <label for="contact-me">Message: <input type="email" name="_replyto"></label>
+                            <input type="submit" value="Send">
+                        </form>
                                 
                     </div>
     
