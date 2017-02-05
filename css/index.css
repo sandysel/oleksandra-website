@@ -36,10 +36,16 @@ p, span{
     
 }
 
-a, h1, h2, h3, h4, h5, h6, ul, li {
+a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Cinzel', cursive;
     padding:1px 1px 1px 1px;
     margin: 10px auto;
+}
+ul{
+    font-family: 'Cinzel', 'Forum', cursive;
+    padding:1px 1px 1px 1px;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .displayed{
@@ -53,8 +59,8 @@ a, h1, h2, h3, h4, h5, h6, ul, li {
 
 li{
     list-style: circle url("../img/deco/smallest-gear.png");
-    padding-left: 1em;
-    /*text-align: center;*/
+    /*padding-left: 1em;*/
+    text-align: center;
 }
 
 .headgreeting
