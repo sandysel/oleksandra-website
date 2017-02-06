@@ -142,5 +142,6 @@ input[type=submit]:focus {
 .halfscreen{
 z-index: -3;
  background-color: #f2ffe6;
+ width:50%;
 
 }
