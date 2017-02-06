@@ -128,9 +128,14 @@ input[type=text]:focus {
 input[type=email]:focus {
     border: 4px inset #00cc66;
 }
-input[type=email]:focus {
+input[type=submit]{
+    background-color:#ccffcc;
+}
+input[type=submit]:focus {
+    background-color:##b3ffb3;
     border: 4px inset #00cc66;
 }
+
 
 
 
