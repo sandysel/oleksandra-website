@@ -9,6 +9,7 @@ body{
     min-width:400px;
     max-width: 1080px;
     margin:0 auto;
+    z-index: -4;
 }
 footer{
     background-color:gray;
@@ -16,6 +17,7 @@ footer{
 }
 nav {
     display: block;
+    alignment-baseline: middle;
 }
 .container{
     background-color:#B7EBC7;
@@ -25,14 +27,18 @@ p, span{
     max-width: 1080px;
     width: 90%;
     font-family: 'Forum', cursive;
+    font-size:25px;
     margin:10px 0px 0px 0px;
 }
+    
 .smaller-image{
     width:40px;
 }
 
 .logo{
     width:30px;
+    float:left;
+    clear:left;
     
 }
 
@@ -40,9 +46,10 @@ a, h1, h2, h3, h4, h5, h6 {
     font-family: 'Cinzel', cursive;
     padding:1px 1px 1px 1px;
     margin: 10px auto;
+    font-size:25px;
 }
 ul{
-    font-family: 'Cinzel', 'Forum', cursive;
+    font-family: 'Cinzel', cursive;
     padding:1px 1px 1px 1px;
     margin: 10px auto;
     text-align: center;
@@ -63,6 +70,13 @@ li{
     text-align: center;
 }
 
+.center{
+    width:150px;
+    margin:0 auto;
+    text-align:left;
+    
+}
+
 .headgreeting
 {
     display: none;
@@ -70,4 +84,56 @@ li{
 
 .ongray:link{
     color: #add8e6;
+}
+
+#contactme{
+    /*display: none;*/
+}
+
+#bg-gears{
+    z-index:-2;
+    float:inherit;
+    clear:inherit;
+}
+
+label{
+    font-family: 'Forum', cursive;
+    font-size:15px;
+    display: block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+}
+input {
+  display: block;
+  float: left;
+   width: 280px;
+}
+
+
+#contactCheckbox{
+   text-align:center;
+   width: 50%;
+}
+
+
+input{
+    background-color:#e6ffe6;
+    color:#003300;
+}
+input[type=text]:focus {
+    border: 4px inset #00cc66;
+}
+
+input[type=email]:focus {
+    border: 4px inset #00cc66;
+}
+
+
+
+.halfscreen{
+z-index: -3;
+ background-color: #f2ffe6;
+
 }

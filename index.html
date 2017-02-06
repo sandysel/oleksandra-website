@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,19 +30,21 @@
 <body>
     <div class="container">
         <a href="#" class="navbar-left">
-            <img class="logo"  src="img/me/ls.png" alt="logo">
+            <img class="logo"  src="img/me/ls.png" alt="logo"/>
         </a>
         <h1 class="headgreeting">Welcome to my website</h1>
         <h1 class="headgreeting">It is great seeing you here</h1>
         
-        <img src="img/deco/gears.png" alt="gears"></img>
-        
         <nav>
-            <a href="about-me">About me</a> |
-            <a href="contact-info">Contacts</a> |
-            <a href="#">My works</a> |
+            <a href="#about-me">About me</a> |
+            <a href="#contact-info">Contacts</a> |
+            <a href="#my-works">My works</a> |
             <a href="#">Blog</a>
         </nav>
+        
+        <img id="bg-gears" src="img/deco/gears.png" alt="gears"/>
+        
+        
         
     <div>
         <h1 class="text-center">Oleksandra    Seletska</h1></div>
@@ -64,7 +66,7 @@
     <div>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
     <div>
-        <h3class="text-center"><a id="contact-info"> </a>Contact info</h3></div>
+        <h3 class="text-center"><a id="contact-info"> </a>Contact info</h3></div>
             <div>
                 <p>
                     @&nbsp; 
@@ -90,32 +92,27 @@
                 </p>
             </div>
                 <p class="text-right"><a href="#" class="text-right">back to top</a></p>
-            <div>
-        <h3>
+    <div>
+        <p>
             <label for="contact-me">
-                <input type="checkbox" name="contact-me"/> 
+                <input id="contactCheckbox" type="checkbox" name="contact-me"/> 
                     Contact me</label>
                     
                           
-                    <div>
+                    <div id="contactme">
                         <label for="contact-me">
-                            <h4>Contact me with:</h4>
+                            <h4>Contact me:</h4>
                         </label>  
                 
-                        <form action="https://formspree.io/seletska@gmail.com"
-                              method="POST">
-                            <label for="contact-me">Put your name here: <input type="text" name="name"></label>
-                            <label for="contact-me">Reason for contacting me: <input type="text" name="contact-reason"></label>
-                            <label for="contact-me">Your email: <input type="email" name="_replyto"></label>
-                            <input type="submit" value="Send">
-                        </form>
-                                
+                            <form action="https://formspree.io/seletska@gmail.com"
+                                  method="POST">
+                                <label for="contact-me"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Put your name here: <input type="text" name="name"></label>
+                                <label for="contact-me"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp; Reason for contacting me: <input type="text" name="contact-reason"></label>
+                                <label for="contact-me"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; Your email: <input type="email" name="_replyto"></label>
+                                <label for="contact-me"><input type="submit" value="Send"></label>
+                            </form>
                     </div>
-    
-    
-            
-            
-        </h3>
+        </p>
     </div>
     
     <hr width=50%>
@@ -123,6 +120,7 @@
     <div>
         <nav>
             <h3 class="text-center">Capabilities</h3>
+            <div class="center">
             <ul>
                 <p>
                   <li class"test-center">html</li>
@@ -133,10 +131,11 @@
                   <li class"test-center">...other</li>
                 </p>
             </ul>
+            </div>
         </nav>
     </div>
     
-    <h3 class="text-center">My works</h3>
+    <h3 class="text-center"><a name="my-works"></a>My works</h3>
     
     <h4 class="text-center">Game art</h4>
     
@@ -170,7 +169,7 @@
 
     </div>
     <br>
-    
+     <p class="text-right"><a href="#" class="text-right">back to top</a></p>
     
     
     </div>
@@ -182,7 +181,6 @@
             <a href="http://kasyblack.deviantart.com/"><img class="smaller-image" src="img/icons/Deviantart.svg" alt="Deviantart icon"></img></a>
             <a href="https://www.facebook.com/oleksandra.seletska"><img class="smaller-image"  src="img/icons/Facebook.svg" alt="Facebook icon"></img></a>
             <a href="https://github.com/sandysel"><img class="smaller-image" src="img/icons/Github.svg" alt="Github icon"></img></a></p>
-            <p class="text-right ongray"> <a href="#" >back to top </a></p>
         </div>      
         <div>
             <button class="btn btn-block" onclick="swapStyleSheet('css/index.css')">green</button>
