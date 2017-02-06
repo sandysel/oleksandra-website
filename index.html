@@ -10,12 +10,13 @@
         <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
         
-        <!-- jQuery -->
+        <!-- jQuery and ajax-->
         <script
           src="https://code.jquery.com/jquery-3.1.1.js"
           integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
           crossorigin="anonymous">
         </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -29,14 +30,15 @@
 </head>
 <body>
     <div class="container">
-        <a href="#" class="navbar-left">
-            <img class="logo"  src="img/me/ls.png" alt="logo"/>
-        </a>
+         <a href="#" class="navbar-left">
+                <img class="navbar-brand"  src="img/me/ls.png" alt="logo"/>
+            </a>
         <h1 class="headgreeting">Welcome to my website</h1>
         <h1 class="headgreeting">It is great seeing you here</h1>
         
-        <nav>
-            <a href="#about-me">About me</a> |
+        <nav class="navbar navbar-right navbar-inverse navbar-absolute-top ">
+           
+            <a href="#about-me" >About me</a> |
             <a href="#contact-info">Contacts</a> |
             <a href="#my-works">My works</a> |
             <a href="#">Blog</a>
@@ -94,32 +96,27 @@
                 <p class="text-right"><a href="#" class="text-right">back to top</a></p>
     <div>
         <p>
-            <label for="contact-me">
+            <label for="contactCheckbox">
                 <input id="contactCheckbox" type="checkbox" name="contact-me"/> 
                     Contact me</label>
                     
                           
                     <div id="contactme">
-                        <label for="contact-me">
-                            <h4>Contact me:</h4>
-                        </label>  
-                
                             <form action="https://formspree.io/seletska@gmail.com"
                                   method="POST">
-                                <label for="contact-me"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Put your name here: <input type="text" name="name"></label>
-                                <label for="contact-me"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp; Reason for contacting me: <input type="text" name="contact-reason"></label>
-                                <label for="contact-me"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; Your email: <input type="email" name="_replyto"></label>
+                                <label for="contact-me"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Put your name here: <input type="text" name="name" required></label>
+                                <label for="contact-me"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp; Reason for contacting me: <input type="text" name="contact-reason" required></label>
+                                <label for="contact-me"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; Your email: <input type="email" name="_replyto" required></label>
                                 <label for="contact-me"><input type="submit" value="Send"></label>
                             </form>
                     </div>
         </p>
     </div>
     
-    <hr width=50%>
+    <hr>
         
     <div>
-        <nav>
-            <h3 class="text-center">Capabilities</h3>
+        <h3 class="text-center">Capabilities</h3>
             <div class="center">
             <ul>
                 <p>
@@ -132,8 +129,8 @@
                 </p>
             </ul>
             </div>
-        </nav>
     </div>
+    <br>
     
     <h3 class="text-center"><a name="my-works"></a>My works</h3>
     
