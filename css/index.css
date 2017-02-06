@@ -132,7 +132,7 @@ input[type=submit]{
     background-color:#ccffcc;
 }
 input[type=submit]:focus {
-    background-color:##b3ffb3;
+    background-color:#b3ffb3;
     border: 4px inset #00cc66;
 }
 
