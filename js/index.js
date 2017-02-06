@@ -35,9 +35,9 @@ var x = document.getElementById("contactMe");
             
             $('#contactCheckbox').click(function() {
                 if ($(this.is(':checked'))) {
-                    $("#contactme").show();
+                    $('#contactme').show();
                 } else {
-                    $("#contactme").hide();
+                    $('#contactme').hide();
                 }
             }); 
 

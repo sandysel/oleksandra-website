@@ -51,9 +51,10 @@ ul{
 
 .displayed{
     display: block;
+    
     margin-left: 30%;
     margin-right: 10%;
-    width: 60%;
+    width: width: 200px;
     position: static;
     
 }
@@ -124,6 +125,9 @@ input[type=text]:focus {
     border: 4px inset #00cc66;
 }
 
+input[type=email]:focus {
+    border: 4px inset #00cc66;
+}
 input[type=email]:focus {
     border: 4px inset #00cc66;
 }
